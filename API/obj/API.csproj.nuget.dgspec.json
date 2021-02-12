@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\aspnet_ang\\API\\API.csproj": {}
+    "D:\\dev\\aspang\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\dev\\aspnet_ang\\API\\API.csproj": {
+    "D:\\dev\\aspang\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\aspnet_ang\\API\\API.csproj",
+        "projectUniqueName": "D:\\dev\\aspang\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\dev\\aspnet_ang\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\aspnet_ang\\API\\obj\\",
+        "projectPath": "D:\\dev\\aspang\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\dmitrii.fadeev\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\aspang\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dmitrii.fadeev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
